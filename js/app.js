@@ -2,6 +2,7 @@
 const supabaseUrl = 'https://aioehzqlccwhnuyjkphx.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpb2VoenFsY2N3aG51eWprcGh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1MDA0OTAsImV4cCI6MjA5ODA3NjQ5MH0.pTl18x5wCkAT9wOjJglupMA3pmISY2S3YvAFJAAbZAQ';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+window.supabaseClient = supabase;
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
